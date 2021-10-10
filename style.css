@@ -12,6 +12,10 @@ background-color: rgb(221, 228, 199);
 
 }
 
+
+.name-mary{
+    width: 174px;
+}
 .main-content{
 font-family: Arial, Helvetica, sans-serif;
 
@@ -139,11 +143,11 @@ margin-right: 10px;
     display: flex;
     margin-top: 15px;
     margin-bottom: 0;
+    border-bottom: 0.5px solid grey;
 }
 
 p{
     margin-top: 0px;
-    border-bottom: 0.5px solid grey;
     margin-bottom: 0px;
 }
 
@@ -152,20 +156,30 @@ p{
     margin-right: 50px;
     height: 20px;
     width: 20px;
+    padding-bottom: 5px;
 }
 
  
 .attached{
-    margin-left: 99px;
+    margin-left: 110px;
 }
 
 .attached-1{
-    margin-left: 100px;
+    margin-left: 105px;
+    height: 26px;
+}
+
+.attached-1-2{
+    margin-left: 115px;
 }
 
 
+.date-2{
+    margin-left: 509px;
+}
+
 .img-1{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 span{
 margin-left: 100px;
@@ -176,9 +190,14 @@ margin-left: 100px;
     margin-left: 5px;
     margin-left: 42px;
     color: grey;
+    
 }
 
-
+.comments-s{
+    color: grey;
+    display: flex;
+    margin-left: 35px;
+}
 .comments-1{
 
     margin-left: 5px;
@@ -197,11 +216,11 @@ margin-left: 100px;
 }
 
 .date{
-    margin-left: 506px;
+    margin-left: 519px;
 }
 
 .date2{
-margin-left: 507px;
+margin-left: 585px;
 
 
 }
@@ -217,6 +236,7 @@ margin-left: 507px;
 
 p.name{
     margin-bottom: 0px;
+    display: flex;
 }
 .redstar{
     margin-bottom: 5px;
@@ -230,4 +250,186 @@ p.name{
 
 .dues{
     margin-left: 94px;
+}
+
+.trip{
+    margin-left: 105px;
+}
+
+
+.santa{
+    margin-left: 100px;
+}
+
+
+ @media(min-width:550px) and (max-width:800px){
+
+   .messages div{
+       height: 100px;
+       display: block;
+       margin-left: 10px;
+    }
+.trip{
+    margin-left: 19px;
+    
+}
+    .comments-1{
+        margin-left: 0px;
+    }
+    .name{
+        display: flex;
+    }
+
+    .star{
+        margin: 0px;
+    }
+    .comments-1{
+        margin-left: 19px;
+    }
+
+    .comments-1{
+        margin-left: 19px;
+    }
+
+    .santa{
+        margin-left: 19px;
+    }
+    .comments{
+        margin-left: 19px;
+    }
+
+    .star1{
+        margin: 0px;
+    }
+
+    .birthday{
+        margin-left: 19px;
+
+    }
+
+    .redstar{
+        margin: 0;
+
+    }
+
+    .birthday2{
+        margin-left: 19px;
+
+    }
+
+    .comments-date1{
+        margin-left: 19px;
+
+    }
+    .dues{
+        margin-left: 19px;
+
+    }
+
+    .comments-s{
+        margin-left: 19px;
+
+    }
+    .comments-date{
+        margin-left: 19px;
+
+    }
+
+} 
+    
+
+@media (max-width:550px){
+
+    .messages div{
+        height: 100px;
+        display: block;
+        margin-left: 10px;
+     }
+ .trip{
+     margin-left: 19px;
+     
+ }
+     .comments-1{
+         margin-left: 0px;
+     }
+     .name{
+         display: flex;
+     }
+ 
+     .star{
+         margin: 0px;
+     }
+     .comments-1{
+         margin-left: 19px;
+     }
+ 
+     .comments-1{
+         margin-left: 19px;
+     }
+ 
+     .santa{
+         margin-left: 19px;
+     }
+     .comments{
+         margin-left: 19px;
+     }
+ 
+     .star1{
+         margin: 0px;
+     }
+ 
+     .birthday{
+         margin-left: 19px;
+ 
+     }
+ 
+     .redstar{
+         margin: 0;
+ 
+     }
+ 
+     .birthday2{
+         margin-left: 19px;
+ 
+     }
+ 
+     .comments-date1{
+         margin-left: 19px;
+ 
+     }
+     .dues{
+         margin-left: 19px;
+ 
+     }
+ 
+     .comments-s{
+         margin-left: 19px;
+ 
+     }
+     .comments-date{
+         margin-left: 19px;
+ 
+     }
+
+    .incoming{
+        display: none;
+    }
+
+    .outgoing{
+        display: none;
+    }
+    .drafts{
+        display: none;
+    }
+    .spam{
+        display: none;
+    }
+    .navigation{
+        width: 100px;
+        
+    }
+
+    .navigation img{
+        margin-left: 20px;
+    }
 }
