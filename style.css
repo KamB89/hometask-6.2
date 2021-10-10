@@ -1,0 +1,233 @@
+.header{
+    display: flex;
+    width: 1200px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+background-color: rgb(221, 228, 199);
+
+
+}
+
+.main-content{
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.mail-header{
+    display: flex;
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+div.mail{
+    width: 100px;
+}
+
+
+.user-mail{
+    margin-right: 10px;
+    margin-top: 5px;
+    
+}
+
+.user-icon{
+    height: 30px;
+    width: 30px;
+}
+
+.mail{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.user-header{
+    display: flex;
+margin-left: 900px;
+margin-right: 10px;
+
+}
+
+
+.navigation{
+    margin-top: 50px;
+    width: 240px;
+}
+
+.incoming-nav{
+    display: flex;
+    height: 40px;
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.incoming-nav:hover{
+    background-color: rgb(158, 68, 52);
+}
+
+.incoming{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.outgoing-nav{
+    display: flex;
+    height: 40px;
+    width: 150px;
+    margin-bottom: 10px;
+
+}
+
+.outgoing-nav:hover{
+    background-color: rgb(158, 68, 52)
+}
+
+.outgoing{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.drafts-nav{
+    display: flex;
+    height: 40px;
+    width: 150px;
+    margin-bottom: 10px;
+
+}
+.drafts-nav:hover{
+    background-color: rgb(158, 68, 52)
+
+}
+.drafts{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.spam-nav{
+    height: 40px;
+    width: 150px;
+    display: flex;
+    margin-bottom: 10px;
+
+}
+.spam-nav:hover{
+    background-color: rgb(158, 68, 52)
+}
+.spam{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.main-content{
+    display: flex;
+    border-top: 1px solid grey;
+    width: 1275px;
+}
+
+.messages{
+    margin-top: 50px;
+    display: block;
+}
+
+.messages div{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+p{
+    margin-top: 0px;
+    border-bottom: 0.5px solid grey;
+    margin-bottom: 0px;
+}
+
+.star{
+    margin-top: 10px;
+    margin-right: 50px;
+    height: 20px;
+    width: 20px;
+}
+
+ 
+.attached{
+    margin-left: 99px;
+}
+
+.attached-1{
+    margin-left: 100px;
+}
+
+
+.img-1{
+    margin-left: 10px;
+}
+span{
+margin-left: 100px;
+
+}
+
+.comments{
+    margin-left: 5px;
+    margin-left: 42px;
+    color: grey;
+}
+
+
+.comments-1{
+
+    margin-left: 5px;
+    margin-left: 30px;
+    color: grey;
+}
+.comments-date{
+
+    margin-left: 63px;
+    color: grey;
+}
+
+.comments-date1{
+    margin-left: 63px;
+    color: grey;
+}
+
+.date{
+    margin-left: 506px;
+}
+
+.date2{
+margin-left: 507px;
+
+
+}
+
+.birthday{
+    margin-left: 62px;
+    margin-bottom: 0px;
+}
+
+.birthday2{
+    margin-left: 90px;
+}
+
+p.name{
+    margin-bottom: 0px;
+}
+.redstar{
+    margin-bottom: 5px;
+    margin-right: 50px;
+}
+
+.star1{
+    margin-bottom: 5px;
+    margin-right: 50px;
+}
+
+.dues{
+    margin-left: 94px;
+}
